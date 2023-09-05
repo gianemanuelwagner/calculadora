@@ -7,6 +7,7 @@
 
 body {
     min-height: 100vh;
+    background-image: linear-gradient(70deg, #000000, #28d55f);
     background-color: #ffffff;
     display: grid;
     place-items: center;
