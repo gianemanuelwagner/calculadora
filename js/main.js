@@ -30,8 +30,8 @@ botones.forEach(boton => {
 
         if (pantalla.textContent === "0" || pantalla.textContent === "Error") {
             pantalla.textContent = botonApretado;
-        } else {
+        } else if (pantalla.textContent.length < 11) { // Limitar a 11 dígitos
             pantalla.textContent += botonApretado;
         }
-    })
-})
+    });
+});
