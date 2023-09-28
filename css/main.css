@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-image: linear-gradient(70deg, #000000, #28d55f);
+    background-image: linear-gradient(1deg, #000000, #28d55f);
     background-color: #ffffff;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .calculadora {
-    background-color: #232323;
+    background-color: #000000;
     color: white;
     width: 350px;
     max-width: 100%;
@@ -32,26 +32,26 @@ body {
     padding: 1.5rem;
     font-size: 2rem;
     text-align: right;
-    border-radius: .9rem;
+    border-radius: .5rem;
     margin-bottom: 1rem;
     font-family: Trebuchet MS;
     font-weight: 600;
 }
 
 .btn {
-    background-color: #000000;
+    background-color: #202020;
     color: white;
     border: 0;
-    padding: 1.5rem .5rem;
+    padding: 1.5rem 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: .9rem;
+    border-radius: .5rem;
     cursor: pointer;
 }
 
 .btn:hover {
-    background-color: #030303e6;
+    background-color: #cececebe;
 }
 
 #cero {
@@ -59,10 +59,56 @@ body {
 }
 
 #igual {
-    background-image: linear-gradient(45deg, #00000099, #28d55f);
+    background-color:  #28d55f;
     grid-row: span 2;
 }
 
 #igual:hover {
+    background-color: gray;
+}
+
+#mas {
+    background-color:  #28d55f;
+}
+#mas:hover {
+    background-color: gray;
+}
+
+#menos {
+    background-color:  #28d55f;
+}
+
+#menos:hover {
+    background-color: gray;
+
+}
+
+#multip {
+    background-color:  #28d55f;
+}
+
+#multip:hover {
     background-color: #cececebe;
+
+}
+#dividir {
+    background-color:  #28d55f;
+}
+#dividir:hover {
+    background-color: gray;
+}
+
+#borrar {
+    background-color:  #28d55f;
+}
+#borrar:hover{
+    background-color: gray
+}
+
+#c {
+    background-color:  #28d55f;
+}
+
+#c:hover {
+    background-color: gray
 }
