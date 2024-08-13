@@ -59,7 +59,7 @@ body {
 }
 
 #igual {
-    background-color:  #28d55f;
+    background-color:  ##8df359;
     grid-row: span 2;
 }
 
@@ -68,14 +68,14 @@ body {
 }
 
 #mas {
-    background-color:  #28d55f;
+    background-color:  ##8df359;
 }
 #mas:hover {
     background-color: gray;
 }
 
 #menos {
-    background-color:  #28d55f;
+    background-color:  ##8df359;
 }
 
 #menos:hover {
@@ -84,7 +84,7 @@ body {
 }
 
 #multip {
-    background-color:  #28d55f;
+    background-color:  ##8df359;
 }
 
 #multip:hover {
@@ -92,21 +92,21 @@ body {
 
 }
 #dividir {
-    background-color:  #28d55f;
+    background-color:  #8df359;
 }
 #dividir:hover {
     background-color: gray;
 }
 
 #borrar {
-    background-color:  #28d55f;
+    background-color:  #8df359;
 }
 #borrar:hover{
     background-color: gray
 }
 
 #c {
-    background-color:  #28d55f;
+    background-color:  #8df359;
 }
 
 #c:hover {
