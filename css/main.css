@@ -28,7 +28,7 @@ body {
 
 .pantalla {
     grid-column: 1 / -1;
-    background-color: #000000;
+    background-color: #ffffff;
     padding: 1.5rem;
     font-size: 2rem;
     text-align: right;
