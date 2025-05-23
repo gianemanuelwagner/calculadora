@@ -35,7 +35,9 @@ body {
     border-radius: .5rem;
     margin-bottom: 1rem;
     font-family: Trebuchet MS;
-    font-weight: 600;
+    font-weight: bold; /* Increased font weight */
+    color: #333333; /* Darker text color for better contrast */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1); /* Subtle text shadow for depth */
 }
 
 .btn {
@@ -124,7 +126,7 @@ body {
     }
 
     .pantalla {
-        font-size: 1.75rem; /* Reduce font size for display */
+        font-size: 1.8rem; /* Adjusted for bold font: slightly larger */
         padding: 1rem;
         margin-bottom: 0.8rem;
     }
@@ -144,7 +146,7 @@ body {
     }
 
     .pantalla {
-        font-size: 1.5rem; /* Further reduce font size */
+        font-size: 1.6rem; /* Adjusted for bold font: slightly larger */
         padding: 0.8rem;
         margin-bottom: 0.6rem;
     }
