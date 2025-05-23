@@ -9,29 +9,29 @@
 </head>
 <body>
 
-    <div class="calculadora">
+    <main class="calculadora" role="application" aria-label="Calculator">
 
-        <div id="pantalla" class="pantalla">0</div>
+        <div id="pantalla" class="pantalla" role="display" aria-live="assertive">0</div>
 
-        <button id="c" class="btn">C</button>
-        <button id="borrar" class="btn">←</button>
-        <button id="dividir" class="btn">/</button>
-        <button id="multip" class="btn">*</button>
-        <button class="btn">7</button>
-        <button class="btn">8</button>
-        <button class="btn">9</button>
-        <button id="menos" class="btn">-</button>
-        <button class="btn">4</button>
-        <button class="btn">5</button>
-        <button class="btn">6</button>
-        <button id="mas" class="btn">+</button>
-        <button class="btn">1</button>
-        <button class="btn">2</button>
-        <button class="btn">3</button>
-        <button id="igual" class="btn">=</button>
-        <button id="cero" class="btn">0</button>
-        <button class="btn">.</button>
-    </div>
+        <button id="c" class="btn" role="button" aria-label="Clear" tabindex="0">C</button>
+        <button id="borrar" class="btn" role="button" aria-label="Backspace" tabindex="0">←</button>
+        <button id="dividir" class="btn" role="button" aria-label="Divide" tabindex="0">/</button>
+        <button id="multip" class="btn" role="button" aria-label="Multiply" tabindex="0">*</button>
+        <button class="btn" role="button" aria-label="7" tabindex="0">7</button>
+        <button class="btn" role="button" aria-label="8" tabindex="0">8</button>
+        <button class="btn" role="button" aria-label="9" tabindex="0">9</button>
+        <button id="menos" class="btn" role="button" aria-label="Subtract" tabindex="0">-</button>
+        <button class="btn" role="button" aria-label="4" tabindex="0">4</button>
+        <button class="btn" role="button" aria-label="5" tabindex="0">5</button>
+        <button class="btn" role="button" aria-label="6" tabindex="0">6</button>
+        <button id="mas" class="btn" role="button" aria-label="Add" tabindex="0">+</button>
+        <button class="btn" role="button" aria-label="1" tabindex="0">1</button>
+        <button class="btn" role="button" aria-label="2" tabindex="0">2</button>
+        <button class="btn" role="button" aria-label="3" tabindex="0">3</button>
+        <button id="igual" class="btn" role="button" aria-label="Equals" tabindex="0">=</button>
+        <button id="cero" class="btn" role="button" aria-label="0" tabindex="0">0</button>
+        <button class="btn" role="button" aria-label="Decimal point" tabindex="0">.</button>
+    </main>
 
     
     <script src="./js/main.js"></script>
